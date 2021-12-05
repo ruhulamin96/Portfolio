@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c5c1850.chunk.css",
+    "main.js": "/static/js/main.fd00e339.chunk.js",
+    "main.js.map": "/static/js/main.fd00e339.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f027f2bf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f027f2bf.js.map",
+    "static/css/2.6c0f60ba.chunk.css": "/static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.8ee703ca.chunk.js": "/static/js/2.8ee703ca.chunk.js",
+    "static/js/2.8ee703ca.chunk.js.map": "/static/js/2.8ee703ca.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.6c0f60ba.chunk.css.map": "/static/css/2.6c0f60ba.chunk.css.map",
+    "static/css/main.2c5c1850.chunk.css.map": "/static/css/main.2c5c1850.chunk.css.map",
+    "static/js/2.8ee703ca.chunk.js.LICENSE.txt": "/static/js/2.8ee703ca.chunk.js.LICENSE.txt",
+    "static/media/bluesky.907d2a72.PNG": "/static/media/bluesky.907d2a72.PNG",
+    "static/media/css.486422b1.png": "/static/media/css.486422b1.png",
+    "static/media/goldenwatch.af777913.png": "/static/media/goldenwatch.af777913.png",
+    "static/media/hondabike.9d3dc744.png": "/static/media/hondabike.9d3dc744.png",
+    "static/media/html.ff3cf75e.png": "/static/media/html.ff3cf75e.png",
+    "static/media/infinityit.29b1c4a9.png": "/static/media/infinityit.29b1c4a9.png",
+    "static/media/javascript.ba40d6a9.svg": "/static/media/javascript.ba40d6a9.svg",
+    "static/media/luxuryfashion.3472a102.png": "/static/media/luxuryfashion.3472a102.png",
+    "static/media/neurondental.52672b5e.PNG": "/static/media/neurondental.52672b5e.PNG",
+    "static/media/nodejs.ac96a6c9.jpg": "/static/media/nodejs.ac96a6c9.jpg",
+    "static/media/portfolio.1dcf6c0d.png": "/static/media/portfolio.1dcf6c0d.png",
+    "static/media/react.9c7af2ed.png": "/static/media/react.9c7af2ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f027f2bf.js",
+    "static/css/2.6c0f60ba.chunk.css",
+    "static/js/2.8ee703ca.chunk.js",
+    "static/css/main.2c5c1850.chunk.css",
+    "static/js/main.fd00e339.chunk.js"
+  ]
+}

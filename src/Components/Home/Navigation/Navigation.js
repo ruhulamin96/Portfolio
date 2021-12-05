@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import "./Navigation.css";
 function Navigation() {
   return (
-    <div className="container " id="top">
+    <div className="container" id="top">
       <nav class="navbar navbar-expand-lg ">
-        <div class="container  fixed-top">
+        <div class="container my_nav  fixed-top">
           <a class="navbar-brand" href="#">
             Ruhul Amin
           </a>
@@ -77,7 +77,8 @@ function Navigation() {
         </div>
       </nav>
       <button className="resume">
-        <i class="fas fa-download"></i> Resume
+        <a href="https://drive.google.com/file/d/1m9HXfGZ4CAqrXnZkrSxWe_bOsQbvVRgK/view?usp=sharing" target="_blank"><i class="fas fa-download"></i> Resume</a>
+        
       </button>
     </div>
   );

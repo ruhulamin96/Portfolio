@@ -28,7 +28,7 @@ function Contact() {
 
   };
   return (
-    <div className="container w-100 my-5" id="contact">
+    <div className="container w-100 pt-5" id="contact">
       <h1 className="text-center">Get In Touch</h1>
       <form
         ref={form}

@@ -16,7 +16,7 @@ import VisibilitySensor from "react-visibility-sensor";
 import "react-circular-progressbar/dist/styles.css";
 function AboutMe() {
   return (
-    <div className="container" id="aboutme">
+    <div className="container pt-5" id="aboutme">
       <div className="row">
         <p className="fs-5" style={{textAlign:"justify"}}>
         Hi, I am a MERN Stack Developer. I have completed a Web development (MERN) Course from Programming Hero. I am an enthusiastic and detail-oriented front-end and back-end web developer. Seeking a challenging career opportunity in a reputed company where I can implement my programming and problem-solving skills, work experience towards the development and implementation of new ideas, contributing to the growth of organization thereby developing myself. 
@@ -25,7 +25,7 @@ function AboutMe() {
        
         <div className="col-md-6 ">
           <h2 className="text-center">Front End</h2>
-          <div className="d-flex m-5 justify-content-center row">
+          <div className="d-flex me-5 justify-content-center row">
             <div
               className="col-md-6 "
               style={{ width: 130, height: 130, marginRight: "10px" }}
@@ -38,7 +38,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -68,7 +68,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -98,7 +98,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -128,7 +128,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -153,7 +153,7 @@ function AboutMe() {
 
         <div className="col-md-6 ">
           <h2 className="text-center">Back End</h2>
-          <div className="d-flex m-5 justify-content-center row">
+          <div className="d-flex me-5 justify-content-center row">
             <div
               className=" "
               style={{ width: 130, height: 130, marginRight: "10px" }}
@@ -166,7 +166,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -196,7 +196,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -226,7 +226,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}
@@ -256,7 +256,7 @@ function AboutMe() {
                     <CircularProgressbarWithChildren
                       value={percentage}
                       styles={buildStyles({
-                        pathColor: `#3ae374`,
+                        pathColor: `#079992`,
 
                         trailColor: "white",
                       })}

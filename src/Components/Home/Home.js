@@ -7,7 +7,7 @@ import Navigation from "./Navigation/Navigation";
 
 function Home() {
   return (
-    <div>
+    <div className="my-5">
       <Navigation></Navigation>
       <Header></Header>
       <AboutMe></AboutMe>
