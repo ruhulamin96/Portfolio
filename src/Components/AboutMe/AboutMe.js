@@ -7,6 +7,7 @@ import nodejs from "../../images/myskills/nodejs.jpg";
 import mongodb from "../../images/myskills/mongodb.png";
 import firebase from "../../images/myskills/firebase.png";
 import express from "../../images/myskills/express.png";
+import redux from "../../images/myskills/redux.png";
 
 import {
   buildStyles,
@@ -18,11 +19,17 @@ function AboutMe() {
   return (
     <div className="container pt-5" id="aboutme">
       <div className="row">
-        <p className="fs-5" style={{textAlign:"justify"}}>
-        Hi, I am a MERN Stack Developer. I have completed a Web development (MERN) Course from Programming Hero. I am an enthusiastic and detail-oriented front-end and back-end web developer. Seeking a challenging career opportunity in a reputed company where I can implement my programming and problem-solving skills, work experience towards the development and implementation of new ideas, contributing to the growth of organization thereby developing myself. 
+        <p className="fs-5" style={{ textAlign: "justify" }}>
+          Hi, I am a MERN Stack Developer. I have completed a Web development
+          (MERN) Course from Programming Hero. I am an enthusiastic and
+          detail-oriented front-end and back-end web developer. Seeking a
+          challenging career opportunity in a reputed company where I can
+          implement my programming and problem-solving skills, work experience
+          towards the development and implementation of new ideas, contributing
+          to the growth of organization thereby developing myself.
         </p>
         <h1 className="text-center my-3">My Skills</h1>
-       
+
         <div className="col-md-6 ">
           <h2 className="text-center">Front End</h2>
           <div className="d-flex me-5 justify-content-center row">
@@ -149,7 +156,7 @@ function AboutMe() {
           </div>
         </div>
 
-{/* ---------------------------Backend-------------------------------- */}
+        {/* ---------------------------Backend-------------------------------- */}
 
         <div className="col-md-6 ">
           <h2 className="text-center">Back End</h2>
@@ -264,6 +271,36 @@ function AboutMe() {
                       <img
                         style={{ width: 40, marginTop: 15 }}
                         src={express}
+                        alt="doge"
+                      />
+                      <div style={{ fontSize: 12, marginTop: 3 }}>
+                        <p>{`${percentage}%`}</p>
+                      </div>
+                    </CircularProgressbarWithChildren>
+                  );
+                }}
+              </VisibilitySensor>
+            </div>
+            <div
+              className="col-md-6 "
+              style={{ width: 130, height: 130, marginRight: "10px" }}
+            >
+              {/* --------------Express js----------------------------- */}
+              <VisibilitySensor>
+                {({ isVisible }) => {
+                  const percentage = isVisible ? 50 : 0;
+                  return (
+                    <CircularProgressbarWithChildren
+                      value={percentage}
+                      styles={buildStyles({
+                        pathColor: `#079992`,
+
+                        trailColor: "white",
+                      })}
+                    >
+                      <img
+                        style={{ width: 40, marginTop: 15 }}
+                        src={redux}
                         alt="doge"
                       />
                       <div style={{ fontSize: 12, marginTop: 3 }}>

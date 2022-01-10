@@ -6,6 +6,7 @@ import neurondental from "../../images/portfolio/neurondental.PNG";
 import hondabike from "../../images/portfolio/hondabike.png";
 import infinityit from "../../images/portfolio/infinityit.png";
 import luxuryfashion from "../../images/portfolio/luxuryfashion.png";
+import easydev from "../../images/portfolio/Easydev.png";
 function Myportfolio() {
   return (
     <div className="container pt-5" id="portfolio">
@@ -37,7 +38,7 @@ function Myportfolio() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-            <h4>BlueSky Tour Hub</h4>
+              <h4>BlueSky Tour Hub</h4>
               <a href="https://bluesky-tour-hub.web.app/" target="_blank">
                 <div class="text">Live Demo</div>
               </a>
@@ -53,8 +54,24 @@ function Myportfolio() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Neuron Dental Care</h4>
+              <h4>Neuron Dental Care</h4>
               <a href="https://neuron-dental-care.web.app/" target={"_blank"}>
+                <div class="text">Live Demo</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div class="main_portfolio  img-hover-zoom">
+            <img
+              src={easydev}
+              alt="Avatar"
+              class="image"
+              style={{ width: "100%" }}
+            />
+            <div class="middle">
+              <h4>Easy Dev</h4>
+              <a href="https://easydev-85945.web.app/" target={"_blank"}>
                 <div class="text">Live Demo</div>
               </a>
             </div>
@@ -69,7 +86,7 @@ function Myportfolio() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Honda CBR</h4>
+              <h4>Honda CBR</h4>
               <a
                 href="https://ruhulamin96.github.io/Honda-bike-website/index.html"
                 target={"_blank"}
@@ -88,7 +105,7 @@ function Myportfolio() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Luxury Fashion</h4>
+              <h4>Luxury Fashion</h4>
               <a href="https://luxury-fashion.netlify.app/" target={"_blank"}>
                 <div class="text">Live Demo</div>
               </a>
@@ -104,7 +121,7 @@ function Myportfolio() {
               style={{ width: "100%" }}
             />
             <div class="middle">
-                <h4>Infinity IT Solution</h4>
+              <h4>Infinity IT Solution</h4>
               <a
                 href="https://infinity-institute.netlify.app/"
                 target={"_blank"}
