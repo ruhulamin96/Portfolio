@@ -7,6 +7,7 @@ import hondabike from "../../images/portfolio/hondabike.png";
 import infinityit from "../../images/portfolio/infinityit.png";
 import luxuryfashion from "../../images/portfolio/luxuryfashion.png";
 import easydev from "../../images/portfolio/Easydev.png";
+import flexademic from "../../images/portfolio/flexademic.png";
 function Myportfolio() {
   return (
     <div className="container pt-5" id="portfolio">
@@ -24,6 +25,23 @@ function Myportfolio() {
             <div class="middle">
               <h4>Golden Watch</h4>
               <a href="https://golden-watch.web.app/" target="_blank">
+                <div class="text">Live Demo</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div class="main_portfolio img-hover-zoom">
+            <img
+              src={flexademic}
+              alt="Avatar"
+              class="image"
+              style={{ width: "100%" }}
+            />
+
+            <div class="middle">
+              <h4>FlexaDemic</h4>
+              <a href="https://flexademic.web.app/" target="_blank">
                 <div class="text">Live Demo</div>
               </a>
             </div>
